@@ -1,5 +1,5 @@
 --Retrieve the total number of orders placed.
-select count(order_id) as total_orders 
+select count(distinct order_id) as total_orders 
 from orders;
 
 --Calculate the total revenue generated from pizza sales.
